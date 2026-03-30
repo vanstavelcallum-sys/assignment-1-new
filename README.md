@@ -64,15 +64,3 @@ app/
 2. Open the project in Android Studio.
 3. Let Gradle sync and download dependencies.
 4. Run the app on an emulator or physical device running Android 7.0 (API 24) or higher.
-
-## Dependencies
-
-| Library                  | Version |
-|--------------------------|---------|
-| androidx.core-ktx        | 1.10.1  |
-| androidx.appcompat       | 1.6.1   |
-| material                 | 1.10.0  |
-| androidx.activity        | 1.8.0   |
-| androidx.constraintlayout| 2.1.4   |
-| junit (test)             | 4.13.2  |
-| androidx.espresso-core   | 3.5.1   |
