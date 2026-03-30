@@ -21,23 +21,23 @@ class MainActivity : AppCompatActivity() {
             var result = ""
 
             if (time == "Morning") {
-                result = "Eat some Wagon Wheels"
+                result = "Goodmorning my beautiful fam"
             } else if (time == "Mid-morning") {
-                result = "Time for second breakfast"
+                result = "Thank you happy coworker"
             } else if (time == "Afternoon") {
-                result = "Maybe a sandwich?"
+                result = "What the dog doing"
             } else if (time == "Afternoon Snack Time") {
-                result = "Cookies!"
+                result = "Thinking of you in my my sweetheart"
             } else if (time == "Dinner") {
                 result = "Steak and potatoes"
             } else if (time == "After Dinner") {
-                result = "Dessert time"
+                result = "Calling Joe Barber"
             } else if (time == "Night") {
                 result = "Midnight snack"
             } else if (time == "") {
-                result = "Please type something!"
+                result = "Looking stunning friend"
             } else {
-                result = "I don't know that time"
+                result = "the Sweetest thing ever"
             }
 
             tv1.text = result

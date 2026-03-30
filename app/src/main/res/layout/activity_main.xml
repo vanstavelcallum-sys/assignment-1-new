@@ -11,7 +11,7 @@
         android:layout_width="370dp"
         android:layout_height="200dp"
         android:fontFamily="cursive"
-        android:text="Buttered Buns"
+        android:text="Social Sparks"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         android:textSize="60sp"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Food made with Love"
+        android:text="For the little helping boost"
         android:textColor="#0026FF"
         android:textSize="20sp" />
 
