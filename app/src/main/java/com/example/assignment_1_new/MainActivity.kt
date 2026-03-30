@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
             } else if (time == "Afternoon Snack Time") {
                 result = "Thinking of you my sweetheart"
             } else if (time == "Dinner") {
-                result = "Steak and potatoes"
-            } else if (time == "After Dinner") {
                 result = "Calling Joe Barber"
+            } else if (time == "After Dinner") {
+                result = "Looking stunning queen"
             } else if (time == "Night") {
-                result = "Midnight snack"
+                result = "Such a sweet smile my angel"
             } else {
                 Toast.makeText(this, "Invalid input: Time not recognized", Toast.LENGTH_SHORT).show()
             }
