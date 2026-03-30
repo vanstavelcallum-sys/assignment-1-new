@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             } else if (time == "Afternoon") {
                 result = "What the dog doing"
             } else if (time == "Afternoon Snack Time") {
-                result = "Thinking of you in my my sweetheart"
+                result = "Thinking of you my sweetheart"
             } else if (time == "Dinner") {
                 result = "Steak and potatoes"
             } else if (time == "After Dinner") {
