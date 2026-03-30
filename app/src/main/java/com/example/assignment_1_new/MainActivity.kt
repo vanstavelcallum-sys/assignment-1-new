@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -17,10 +18,12 @@ class MainActivity : AppCompatActivity() {
         var b2 = findViewById<Button>(R.id.b2)
 
         b1.setOnClickListener {
-            var time = et1.text.toString()
+            var time = et1.text.toString().trim()
             var result = ""
 
-            if (time == "Morning") {
+            if (time.isEmpty()) {
+                Toast.makeText(this, "Please enter a time", Toast.LENGTH_SHORT).show()
+            } else if (time == "Morning") {
                 result = "Goodmorning my beautiful fam"
             } else if (time == "Mid-morning") {
                 result = "Thank you happy coworker"
@@ -34,10 +37,8 @@ class MainActivity : AppCompatActivity() {
                 result = "Calling Joe Barber"
             } else if (time == "Night") {
                 result = "Midnight snack"
-            } else if (time == "") {
-                result = "Looking stunning friend"
             } else {
-                result = "the Sweetest thing ever"
+                Toast.makeText(this, "Invalid input: Time not recognized", Toast.LENGTH_SHORT).show()
             }
 
             tv1.text = result
