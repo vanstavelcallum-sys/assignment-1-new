@@ -1,24 +1,24 @@
-# Buttered Buns 🍞
+# Social Sparks
 
-A simple Android app that suggests food based on the time of day. Built as Assignment 1 using Kotlin and Android Views.
+A simple Android app that suggests what messege to prompt based on the time of day. 
 
 ## Features
 
 - Enter a time of day (e.g. Morning, Afternoon, Night) to get a food suggestion
 - Clear button to reset the input and output
-- Custom background image with a fun "Buttered Buns – Food made with Love" theme
-
+- Custom background image with a fun theme of the viral "Cheating Fruits" to enlighten your day
+  
 ## Supported Time Inputs
 
-| Input              | Suggestion              |
-|--------------------|-------------------------|
-| Morning            | Eat some Wagon Wheels   |
-| Mid-morning        | Time for second breakfast |
-| Afternoon          | Maybe a sandwich?       |
-| Afternoon Snack Time | Cookies!              |
-| Dinner             | Steak and potatoes      |
-| After Dinner       | Dessert time            |
-| Night              | Midnight snack          |
+| Input              | Suggestion                     |
+|--------------------|--------------------------------|
+| Morning            | Goodmorning my beautiful fam   |
+| Mid-morning        | Thank you happy coworker       |
+| Afternoon          | What the dog doing             |
+| Afternoon Snack Time | Thinking of you my sweetheart|
+| Dinner             | Calling Joe Barber             |
+| After Dinner       | Looking stunning queen         |
+| Night              | Such a sweet smile my angel    |
 
 > Inputs are case-sensitive. If the input doesn't match any of the above, the app will display "I don't know that time".
 
@@ -64,3 +64,9 @@ app/
 2. Open the project in Android Studio.
 3. Let Gradle sync and download dependencies.
 4. Run the app on an emulator or physical device running Android 7.0 (API 24) or higher.
+
+##YouTube Link
+https://youtube.com/shorts/FrOlr1sZ-o4?feature=share
+
+
+   
